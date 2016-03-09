@@ -1,0 +1,7 @@
+puts contact1 = Contact.create(first_name: "Amanda", last_name: "Santarossa", phone: "7808824550", email:"santaros@ualberta.ca")
+contact2 = Contact.create(first_name: "Evonne", last_name: "Rohatinsky", phone: "7809330319", email:"eveyrow@gmail.com")
+contact3 = Contact.create(first_name: "Maggie", last_name: "Caspar", phone: "7789773007", email:"maggiecaspar@gmail.com")
+contact4 = Contact.create(first_name: "Dereck", last_name: "Toker", phone: "6042190331", email:"derecktoker@gmail.com")
+contact5 = Contact.create(first_name: "Vanessa", last_name: "Besharah", phone: "7809660003", email:"vanessabesharah@gmail.com")
+contact6 = Contact.create(first_name: "Jessica", last_name: "Beggs", phone: "2505885289", email:"jbeggs@uvic.ca")
+contact7 = Contact.create(first_name: "Devan", last_name: "Francis", phone: "6049925263", email:"devanfrancis@gmail.com")
