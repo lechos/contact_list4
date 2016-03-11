@@ -5,11 +5,12 @@ $(function() {
 
     $.get("/contacts", function(contacts) {
         contacts.forEach(function(contact) {
-          $("#first_name").append(contact.first_name);
-          $("#last_name").append(contact.last_name);
-          $("#phone").append(contact.phone);
-          $("#email").append(contact.email);
-          //console.log(contact.first_name, contact.last_name, contact.phone, contact.email);
+          $("#contact").append(contact.id).append(". ").append(contact.first_name).append(" ").append(contact.last_name).append(" ");
+         // $("#last_name").append(contact.last_name).append("  ");
+          // $("#phone").append(contact.phone).append("/");
+          // $("#email").append(contact.email).append("/");
+
+          console.log(contact.first_name, contact.last_name, contact.phone, contact.email);
     //     var body = $("#all_contacts").find('tbody');
     //     var row = $('<tr>');
     //     var column = $('<td>');

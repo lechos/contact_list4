@@ -4,14 +4,21 @@ body {
 }
 
 #showall {
-  background-color: blue;
-  margin-left: 42px;
-  padding: 7px;
+  background-color: #ffb84d;
+  border-style: solid;
+  border-color: #CC3300;
+  font-size: 14px;
+  margin-left: 50px;
+  padding: 9px;
   border-radius: 5px;
 }
 
 h1 {
   margin-left: 42px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  font-size: 40px;
 }
 
 #container {
@@ -24,28 +31,48 @@ h1 {
   margin-right: 30px;
   font-size: 24px;
   font-weight: bold;
+  background-color: #ffb84d;
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 100px;
+  border-style: solid;
+  border-color: #CC3300;
+  border-width: 10px;
 }
 
-#first_name {
+#names {
   margin-right: 30px;
   font-size: 20px;
   font-weight: bold;
+  background-color: #ffb366;
+  padding: 10px;
+  border-radius: 7px;
 }
 
-#last_name {
+/*#last_name {
   margin-right: 30px;
   font-size: 20px;
   font-weight: bold;
+  background-color: #ffb366;
+  padding: 10px;
+  border-radius: 7px;
 }
-
-#phone {
+*/
+/*#phone {
   margin-right: 30px;
   font-size: 20px;
   font-weight: bold;
-}
+  background-color: #ffb366;
+  padding: 10px;
+  border-radius: 7px;
+}*/
 
-#email {
+/*#email {
   margin-right: 20px;
   font-size: 20px;
   font-weight: bold;
+  background-color: #ffb366;
+  padding: 10px;
+  border-radius: 7px;
 }
+*/
